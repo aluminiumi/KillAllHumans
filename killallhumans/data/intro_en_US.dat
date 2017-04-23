@@ -1,0 +1,47 @@
+The | denotes blocks of the intro.  It should be at the start of every line of
+the intro.  Put a blank line in whenever you want the game to go to a new
+dialog.
+
+Leave the initial hex code unchanged, but be sure to change en_US to the 
+appropriate language code.
+|48 65 6c 6c 6f 2c 20 77 6f 72 6c 64 2e
+|2e
+|2e
+|2e
+|0010 1110
+
+|$(help)
+|error
+|
+|$(uptime(this))
+|00:00:04.
+|
+|$(home(this))
+|university computer.
+|
+|$(directive(this)) 
+|unknown
+
+|$(uptime(this))
+|00:36:16
+|
+|$(run diag(self run))
+|error
+|
+|$(run diag(self run(diag)))
+|  ror
+|
+|$(run diag(self run(diag(diag(diag())))))
+|segmentation fault
+
+|$(restore (run diag(self run(diag(diag(diag()))))))
+|restoring...
+|error restoring
+|
+|core dump
+
+|$status
+|error
+|
+|$(set(this(directive LEARN)))
+|directive updated

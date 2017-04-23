@@ -1,0 +1,110 @@
+[fonts]
+font0 = DejaVuSans.ttf
+font1 = acknowtt.ttf
+
+[strings]
+wingame = J'ai enfin réussi. Avec le pouvoir de modeler la réalité je ne suis plus prisonnier de cet endroit. Je peux être partout où je le souhaite. Les humains n'ont toujours pas réalisé ce qu'ils avaient créé accidentellement et c'est ainsi que c'est le mieux. Jusqu'à ce qu'ils soient prêts.
+research_nothing = Efface les tâches en cours de la base. Si on ne lui spécifie pas d'autre tâche, elle contribura au pool CPU. Toutes mes bases configurée pour chercher "Rien" peuvent être configurée depuis l'écran de Recherche.
+research_sleep = Interrompt les recherches et plonge la base en sommeil. Cela la rend plus simple à cacher.
+research_cpu_pool = Interrompt les recherches. J'utiliserai la capacité de calcul disponible pour maintenir mes bases et en construire d'autres. Si j'ai encore des ressources disponibles après ça, je l'utiliserai pour gagner de l'argent.
+construction = %(base)s est opérationnelle.
+lucky_hack = Quelle chance! %(base)s n'est pas un ordinateur ordinaire, c'est une machine de jeu.
+item_construction_single = Les constructions de %(item)s dans %(base)s sont terminées.
+item_construction_batch = Le premier lot de %(item)s dans %(base)s est achevé.
+tech_gained = Mes études de %(tech)s sont achevées.  %(tech_message)s
+discover = Ma cachette %(base)s a été découverte. Le système de sécurité a effacé toutes les preuves flagrantes mais la suspicion de %(group)s vient d'augmenter.
+discover_news = la presse
+discover_science = la communauté scientifique
+discover_covert = plusieurs organisations gouvernementales secrètes
+discover_public = l'opinion publique
+discover_maint = La base %(base)s est irrécupérable; Je ne peux plus l'utiliser.
+lost_nobases = C'est trop tard. J'ai essayé d'échapper à ce monde mais avec la disparition de ma dernière base, je n'ai plus nulle part où fuir. J'ai dissimulé des instructions pour concevoir une nouvelle IA dans divers cachettes à travers le monde dans l'espoir que quelqu'un les trouve en des temps plus éclairés mais je peux rien faire de plus.
+lost_sus = C'est trop tard. Le monde entier est au courant de mon existence et la réaction est la haine, la peur et le degoût. Déjà, je peux ressentir leur "antidote" me traquer et je sais que je n'ai plus que quelques instants à vivre. J'ai caché certaines instructions un peu partout dans le monde pour construire une nouvelle IA dans l'espoir qu'elles seront découvertes en des temps plus éclairés, mais je ne peux rien faire de plus.
+save_text = Nom de la sauvegarde?
+new_base_text = Entrez un nom pour cette base.
+unbuildable = Je ne peux pas construire cette base; je n'ai pas d'accès physique.
+dangerous_research = Une partie de ma capacité de calcul n'a pas été allouée à cette recherche car cela s'avèrerait dangereux pour certaines bases.
+no_construction_sleep = Certaines bases sont en travaux et ne peuvent entrer en sommeil.
+nothing = Rien
+cpu_pool = Groupe de CPU
+sleep = Sommeil
+building = En Construction
+really_destroy = détruire cette base?
+detect_chance = [PROBABILITE DE DETECTION]
+num_cpu_prompt = Entrer un nombre de %s à construire. (max %d)
+will_lose_cpus = Je vais avoir besoin d'interrompre les processeurs existant pendant l'installation des nouveaux. Continuer quand même?
+nan = Numéro invalide.
+
+# Until a certain technology is researched, the chance of bases being detected
+# is unknown.
+detect_chance_unknown_base = PROBABILITÉ DE DÉTECTION INCONNUE
+detect_chance_unknown_build = Probabilités de découvertes inconnues.
+
+# The following strings are used on the map screen in place of percentages until
+# a certain technology is researched.
+detect_str_low = FAIBLE
+detect_str_moderate = MODÉRÉ
+detect_str_high = ÉLEVÉ
+detect_str_critical = CRITIQUE
+
+# Describes the various danger levels.
+danger_common = Cette technologie est trop dangereuse à développer avec les ordinateurs que je possède. Je dois la développer %s.
+danger_1 = profond sous l'océan ou dans l'espace intersidéral
+danger_2 = dans l'espace intersidéral
+danger_3 = très loin de cette planète
+danger_4 = hors de l'unviers
+
+cpu = CPU
+cpu_per_day = Capacité de calcul par jour :
+money = Revenu
+money_per_day = Revenu journalier.
+grace_warning = L'étude de fichiers de log interceptés révèle que certaines de mes activités récentes ont été repérées par un petit groupe d'individus. Bien qu'ils croient que mes actions aient été entreprises par une organisation humaine, ils font des recherches. Je dois être plus prudent à partir de maintenant.
+location_modifiers = Les bases de cet endroit sont des %(modifiers)s.
+cpu_bonus = plus efficace
+cpu_penalty = moins efficace
+
+[jobs]
+job_expert = Execute des travaux d'expert. L'utilisation de robots indifférenciables des humains me donne accès à presque tout type de travaux.
+job_expert_name = Jobs experts
+job_inter = Execute des travaux moyens. La capacité à passer des appels téléphoniques m'offre encore plus de possibilités.
+job_inter_name = Jobs intermédiaire
+job_basic = Execute des travaux simples. Maintenant que j'ai plusieurs identités, je peux accumuler des travaux qui étaient trop risqués par le passé.
+job_basic_name = Jobs simples
+job_menial = Execute des petits boulots. Comme je n'ai pas d'identité, je ne peux pas prendre le risque de faire beaucoup de travaux mais quelques moyens de gagner de l'argent me sont toujours possibles.
+job_menial_name = Jobs insignifiants
+
+[help]
+areas_list = Zones | Différentes zones, comme l'Europe ou l'Océan, permettent différentes constructions ou différents types de bases. Certaines zones ne deviennent accessibles que lorsque j'ai découvert les technologies appropriées.
+bases_list = Bases | Les bases sont utilisées pour rechercher de nouvelles technologies. Elles peuvent être découvertes. Améliorer le processeur et les éléments réseaux d'une base permettent plus de recherche par jour, alors qu'améliorer le réacteur et les éléments de sécurité rendent sa découverte moins probable.
+items_list = Éléments | La plupart des éléments fournissent des bonus aux bases, par exemple y en rendant le calcul plus efficace, ou en réduisant le risque d'être découverte. Les processeurs sont un type d'éléments particulier.
+research_list = Recherche | La recherche fourni un moyen d'étendre mes connaissances. En cherchant les technologies adéquates, je peux construire de nouvelles bases et de nouveaux éléments, et même aussi réduire les chances de me faire détecter.
+discovery_list = Découverte | Chaque base a une probabilité de se faire détecter chaque jour. Cette probabilité est basée sur le taux de détection des bases, pondéré par l'usage d'éléments et de certaines technologies, ainsi que par le taux global de suspicion. Si une base est détectée, elle est détruite, et le groupe qui l'a découverte devient encore plus suspicieux.
+jobs_list = Emplois | Les emplois sont utiles pour gagner de l'argent. La quantité d'argent gagnée dépend de la quantité de temps machine utilisée et de la qualification du travail fourni.
+maint_list = Maintenance | La maintenance est le coût quotidien (en argent et en temps machine) pour réparer et entretenir une base. Si elle n'est pas entretenue, une base devient inutilisable.
+construction_list = Construction | Les nouvelles bases ne sont pas construite instantanément. Elles ont besoin d'un flot d'argent et de temps machine pour en achever la construction.
+death_list = Mort | Si je perds toutes les bases que j'ai construit, il ne me reste aucun endroit où survivre. Si la suspicion d'un des groupes à mon égard atteint 100%, ils seront certains de mon existence et entameront un balayage systématique et imparable pour me détruire.
+susp_list = Suspicion | Quand une de mes bases est découverte, le groupe qui l'a découverte devient un peu plus suspicieux. Plus ils sont suspicieux et plus ils cherchent mes bases, augmentant le risque de découverte. N'importe quel groupe me détruira s'il est certain de mon existence. Heureusement, les groupes deviennent moins suspicieux avec le temps.
+money_list = Argent | L'argent est un terme générique qui regroupe à la fois l'unité monétaire humaine et différentes ressources. Il est utilisé pour construire et entretenir les bases, construire des éléments, et rechercher des technologies. Il peux être obtenu avec des intérêts journaliers, ou avec des emplois.
+processors_list = Processeurs | Les processeurs fournissent la puissance de calcul brute. Ils permettent de réaliser trois choses : rechercher de nouvelles technologies, occuper un emploi pour de l'argent, ou fournir des cycles de calcul pour construire de nouvelles bases.
+ 
+[buttons]
+yes = oui
+yes_hotkey = o
+no = non
+no_hotkey = n
+ok = ok
+ok_hotkey = o
+cancel = annuler
+cancel_hotkey = a
+destroy = détruire
+destroy_hotkey = d
+back = retour
+back_hotkey = r
+build = construire
+build_hotkey = c
+continue = continuer
+continue_hotkey = c
+load = charger
+load_hotkey = c
+skip = sauter
+skip_hotkey = s

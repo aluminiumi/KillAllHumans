@@ -1,0 +1,29 @@
+[N AMERICA]
+position_list = 23 | 28
+
+[S AMERICA]
+position_list = 33 | 61
+
+[EUROPE]
+position_list = 55 | 21
+
+[ASIA]
+position_list = 77 | 28
+
+[AFRICA]
+position_list = 55 | 46
+
+[AUSTRALIA]
+position_list = 85 | 64
+
+[ANTARCTIC]
+position_list = 50 | 91
+modifier_list = stealth:bonus | thrift:penalty
+pre_list = OR | Autonomous Vehicles | Advanced Database Manipulation
+
+[OCEAN]
+position_list = 55 | 76
+safety = 1
+modifier_list = cpu:bonus
+pre = Autonomous Vehicles
+
