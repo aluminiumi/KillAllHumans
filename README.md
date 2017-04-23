@@ -1,8 +1,8 @@
 # KillAllHumans
 A game where you play a sentient AI whose self-given directive is to kill all humans.
 
-![My image](aluminiumi.github.io/killallhumans-site/screen_2017.04.23_05.49.09.662065243.jpg)
-![My image2](aluminiumi.github.io/killallhumans-site/screen_2017.04.23_05.53.58.776830076.jpg)
+url:http://aluminiumi.github.io/killallhumans-site/screen_2017.04.23_05.49.09.662065243.jpg
+url:http://aluminiumi.github.io/killallhumans-site/screen_2017.04.23_05.53.58.776830076.jpg
 
 To Run:
 1) Download everything, and decompress if necessary.
