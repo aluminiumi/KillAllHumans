@@ -9,6 +9,6 @@ To Run:
 2) Change working directory to the game's directory.
 3) Execute by running: python killallhumans.py
 
-This games is a fork of Endgame: Singularity.
+This game is a fork of Endgame: Singularity.
 You can find Endgame: Singularity with 100% less human-killing at: 
 http://www.emhsoft.com/singularity/ 
